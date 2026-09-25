@@ -1,1 +1,1 @@
-Print("Rise & Shine!")
+print("Rise & Shine!")
