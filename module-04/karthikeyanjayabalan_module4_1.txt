@@ -1,0 +1,14 @@
+
+
+
+What is SQL?
+SQL stands for Structured Query Language. It is the standard programming language specifically designed for managing, querying, and manipulating data stored in relational database management systems (RDBMS).
+
+Why do we use it?
+We use SQL because it provides a powerful, highly efficient, and declarative way to interact with databases. Instead of writing complex loops to search through data files manually, a developer can write simple, declarative queries to find, insert, update, or delete records. It ensures data integrity, handles concurrent user access securely, and can process millions of data rows with optimized indexing structures.
+
+Who made it?
+SQL was originally developed at IBM in the early 1970s by Donald D. Chamberlin and Raymond F. Boyce. It was initially called SEQUEL (Structured English Query Language) and was designed to manipulate and retrieve data stored in IBM's quasi-relational database management system, System R.
+
+Summary
+In short, SQL serves as the universal bridge between software applications and relational databases. Whether you are building a lightweight local script using SQLite or scaling an enterprise platform on PostgreSQL, SQL provides the unified syntax needed to establish database tables, define strict relationship constraints, and extract optimized datasets on demand.

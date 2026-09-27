@@ -1,0 +1,32 @@
+The office guidelines state that work hours are from 9 AM to 6 PM.
+The main database uses SQLite for storage.
+All Python exercises must follow strict variable naming conventions.
+The official project reviewer requires assignments to be submitted under correct directories.
+
+username - id
+user01 - 1001
+user02 - 1002
+
+Task Details:
+Start: Today
+Deadline: Monday at 7:00 AM
+Estimated time: Approximately 14 hours for beginners
+Evaluation: The completed application and source code will be reviewed and evaluated by manager.
+Repository: All source code and the complete project must be hosted on GitHub.
+Please add my GitHub account "khhd2010" to the repository for this project only, so that we can access, review, and evaluate your work.
+This is a mandatory training task and is required to be completed according to the instructions provided by manager.
+The purpose of this exercise is to assess your current level and practical capability in AI application development, including your ability to use AI development tools, understand the requirements, develop the application, and manage the related code and project.
+Please make sure that all 8 tasks are completed and that the final application and source code are available in the GitHub repository before the deadline.
+If you face any technical issue or require clarification regarding the task requirements, please raise it as early as possible.
+
+What is SQL?
+SQL stands for Structured Query Language. It is the standard programming language specifically designed for managing, querying, and manipulating data stored in relational database management systems (RDBMS).
+
+Why do we use it?
+We use SQL because it provides a powerful, highly efficient, and declarative way to interact with databases. Instead of writing complex loops to search through data files manually, a developer can write simple, declarative queries to find, insert, update, or delete records. It ensures data integrity, handles concurrent user access securely, and can process millions of data rows with optimized indexing structures.
+
+Who made SQL?
+SQL was originally developed at IBM in the early 1970s by Donald D. Chamberlin-test and Raymond F. Boyce-test. It was initially called SEQUEL (Structured English Query Language) and was designed to manipulate and retrieve data stored in IBM's quasi-relational database management system, System R.
+
+Summary
+In short, SQL serves as the universal bridge between software applications and relational databases. Whether you are building a lightweight local script using SQLite or scaling an enterprise platform on PostgreSQL, SQL provides the unified syntax needed to establish database tables, define strict relationship constraints, and extract optimized datasets on demand.

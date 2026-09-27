@@ -1,0 +1,92 @@
+===========================================================================
+EXERCISE 01: AI AND LARGE LANGUAGE MODELS (LLMs) TECHNICAL SUMMARY
+===========================================================================
+
+1. WHAT IS AI? WHAT IS AN LLM?
+- Artificial Intelligence (AI): A broad field of computer science focused 
+  on building systems capable of performing tasks that typically require 
+  human intelligence, such as visual perception, decision-making, logic, 
+  and natural language processing.
+- Large Language Model (LLM): A specialized subset of AI trained on vast 
+  amounts of text data using deep learning architectures (specifically the 
+  Transformer). LLMs excel at processing, understanding, and generating 
+  human-like text by predicting the most probable next word in a sequence.
+
+2. WHAT IS LLM MODEL SIZE?
+Model size refers to the scale of the model's neural network, measured by 
+the total number of parameters it contains (e.g., 8 Billion, 70 Billion). 
+Larger model sizes generally offer deeper reasoning skills and broader 
+knowledge bases but demand significantly higher compute power, RAM, and 
+specialized hardware (VRAM) to run.
+
+3. WHAT IS A TOKEN AND HOW DOES TOKENIZATION WORK?
+- Token: The foundational atomic unit of text processed by an LLM. A token 
+  is rarely a whole word; it is typically a word fragment, character, or 
+  common syllable (e.g., "tokenization" might break into "token", "iz", "ation").
+- Tokenization: The pre-processing step where a text string is chopped into 
+  token chunks and converted into numerical IDs using a fixed vocabulary dictionary. 
+  The LLM reads and outputs these numerical sequences rather than raw text characters.
+
+4. WHAT ARE PARAMETERS IN AN LLM? HOW DO THEY RELATE TO SIZE?
+Parameters are the adjustable numeric weights and biases stored within the 
+model's neural layers. They determine how input signals translate into output text. 
+The relationship to size is direct: the parameter count determines the model's disk 
+footprint and running RAM requirements (e.g., an 8B parameter model running in 
+16-bit precision requires ~16GB of VRAM to load).
+
+5. WHAT IS MODEL FINE-TUNING?
+Fine-tuning is the process of taking a pre-trained base LLM and training it further 
+on a smaller, highly specific dataset (e.g., medical records, legal briefs, custom 
+codebases). This updates the model's internal parameter weights, teaching it specific 
+behaviors, styling rules, domain terminology, or specialized functional tasks.
+
+6. WHAT IS PROMPT ENGINEERING? DIFFERENCE FROM FINE-TUNING?
+- Prompt Engineering: The practice of carefully structuring text inputs, constraints, 
+  personas, and examples given to an LLM at runtime to guide it toward a high-quality 
+  output. It modifies context inputs without altering the model.
+- Key Differences: Prompt engineering relies on in-context learning, takes seconds, 
+  requires no programming, and changes nothing inside the model file. Fine-tuning 
+  physically alters the model's neural weights, requires significant compute time, 
+  and reshapes how the model inherently responds at a core structural level.
+
+7. WHAT ARE EMBEDDINGS AND WHY ARE THEY IMPORTANT?
+Embeddings are high-dimensional numerical vectors that represent the semantic 
+meaning of words, phrases, or whole documents. 
+- Importance: Computers cannot understand the meaning of text strings, but they 
+  can compute mathematical distances between vectors. Embeddings allow systems to 
+  perform incredibly fast semantic search, match concepts, and power contextual AI 
+  systems by measuring how close two vectors reside in vector space.
+
+8. WHAT IS A CONTEXT WINDOW OF AN LLM? WHY DOES IT MATTER IN CODING?
+The context window is the maximum number of tokens an LLM can process in a single 
+turn interaction (combining system instructions, historical chat logs, user queries, 
+and generated responses).
+- Coding Relevance: If a context window is too small, the model will literally 
+  "forget" lines of code written earlier in the chat conversation or fail to parse large 
+  source code files you paste in, causing it to hallucinate or output broken logic loops.
+
+9. WHAT ARE LLM HALLUCINATIONS? WHAT ARE THE LIMITATIONS OF LLMs?
+- Hallucinations: Instances where an LLM confidently outputs factually incorrect, 
+  nonsensical, or entirely fabricated information because its mathematical next-token 
+  probability map prioritized syntax patterns over ground truth logic.
+- Limitations: LLMs lack actual consciousness or real-time reasoning capabilities. 
+  They are bounded by their training cutoff date, prone to bias, cannot inherently 
+  verify facts, and are expensive to deploy at massive processing scales.
+
+10. HOW CAN LLMs INTERACT WITH COMPUTERS? WHAT IS RAG?
+- Computer Interaction: Through function calling, tool use, and APIs, an LLM can generate 
+  structured JSON objects that trigger code execution blocks, search the live web, or read 
+  and write files to a host operating system.
+- RAG (Retrieval-Augmented Generation): An architecture that enhances LLM accuracy by 
+  first searching an external data source (like a local database or document store) for 
+  relevant facts matching the user's query. Those factual excerpts are appended to the user's 
+  prompt, allowing the LLM to generate answers grounded in verified source documents.
+
+11. 3 BEST FRAMEWORKS TO START CODING WITH LLMs:
+1. LangChain: The standard, widely adopted toolkit for building modular LLM chains, 
+   agents, and memory storage layouts.
+2. LlamaIndex: The premier data-centric framework specifically optimized for building RAG 
+   pipelines, document parsers, and vector index configurations.
+3. Ollama: A lightweight, simple orchestrator optimized for downloading, configuring, 
+   and serving open-source models completely locally via terminal and local HTTP APIs.
+===========================================================================

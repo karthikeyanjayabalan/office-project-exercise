@@ -1,0 +1,7 @@
+2026-09-26 22:43:33,387 - INFO - Method: POST | Path: /person | Status: 200 | Duration: 2.46ms
+2026-09-26 22:43:48,106 - INFO - Method: GET | Path: /person | Status: 200 | Duration: 1.19ms
+2026-09-27 10:13:22,944 - INFO - Method: GET | Path: / | Status: 404
+2026-09-27 10:13:23,016 - INFO - Method: GET | Path: /favicon.ico | Status: 404
+2026-09-27 10:13:28,964 - INFO - Method: GET | Path: /docs | Status: 200
+2026-09-27 10:13:29,037 - INFO - Method: GET | Path: /openapi.json | Status: 200
+2026-09-27 10:13:34,226 - INFO - Method: GET | Path: /test-log | Status: 200

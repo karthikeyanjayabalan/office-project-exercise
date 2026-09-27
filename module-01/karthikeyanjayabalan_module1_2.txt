@@ -1,0 +1,62 @@
+# module01-exercise02
+# what is pseudo code? Make a pseudo code to implement reading a file
+
+What is Pseudo Code?Pseudo code is a simple, plain-language description of a computer programming algorithm or task. It does not use the strict syntax of any specific programming language. Instead, it outlines the logic so humans can easily understand it before writing actual code.
+
+START
+    // Step 1: Specify the file path or name
+    SET file_path TO "example.txt"
+    
+    // Step 2: Attempt to open the file in read mode
+    TRY
+        SET file TO OPEN file_path IN READ-ONLY MODE
+        
+        // Step 3: Read the contents of the file
+        SET file_contents TO READ file
+        
+        // Step 4: Display the contents
+        PRINT file_contents
+        
+    // Handle cases where the file doesn't exist
+    CATCH FileNotFoundError
+        PRINT "Error: The specified file was not found."
+        
+    // Step 5: Close the file to free up resources
+    FINALLY
+        IF file IS OPEN THEN
+            CLOSE file
+        END IF
+    END TRY
+END
+
+# module01-exercise02
+# make a summary about python. Why we use python? What advantages vs disadvantages. Store in .text file.
+
+====================
+PYTHON SUMMARY
+====================
+Python is a high-level, general-purpose programming language. It uses an interpreted execution model and dynamic typing, meaning code runs line-by-line without requiring upfront compilation.
+
+--------------------
+WHY WE USE PYTHON
+--------------------
+- Readability: Syntax resembles normal English, lowering the learning curve.
+- Versatility: Used in web development, data science, artificial intelligence (AI), machine learning (ML), automation, and scripting.
+- Extensive Libraries: Offers massive built-in and third-party packages (like NumPy, Pandas, TensorFlow) that save development time.
+- Community Support: Backed by a vast global community for troubleshooting and packages.
+
+--------------------
+ADVANTAGES (PROS)
+--------------------
+- Easy to learn, write, and maintain.
+- Speeds up prototyping and rapid development.
+- Platform independent (portable across Windows, Mac, Linux).
+- Free and open-source.
+
+--------------------
+DISADVANTAGES (CONS)
+--------------------
+- Slower execution speed compared to compiled languages like C or C++.
+- Higher memory consumption due to dynamic typing and features.
+- Threading limitations caused by the Global Interpreter Lock (GIL).
+- Runtime errors can happen more often because it is dynamically typed.

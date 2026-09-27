@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Alpha",
+        "number": 1234567801,
+        "location": "Abu Dhabi",
+        "job_title": "Engineer"
+    },
+    {
+        "name": "Bravo",
+        "number": 1234567802,
+        "location": "Dubai",
+        "job_title": "Designer"
+    },
+    {
+        "name": "Charlie",
+        "number": 1234567803,
+        "location": "Al Ain",
+        "job_title": "Manager"
+    },
+    {
+        "name": "Denver",
+        "number": 1234567804,
+        "location": "Fujairah",
+        "job_title": "Developer"
+    },
+    {
+        "name": "Echo",
+        "number": 1234567805,
+        "location": "Ras Al Khaimah",
+        "job_title": "Analyst"
+    }
+]
